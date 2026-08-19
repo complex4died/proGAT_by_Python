@@ -370,41 +370,9 @@ result/
 ```text
 result/flye/<sample>/assembly.fasta
 ```
-
 ---
 
-## 14. Recommended repository structure
-
-推荐 GitHub 仓库结构：
-
-```text
-proGAT/
-├── proGAT.py
-├── README.md
-├── .gitignore
-└── example/
-```
-
-不建议将原始测序数据、数据库或完整分析结果直接上传至 GitHub。
-
-建议在 `.gitignore` 中加入：
-
-```gitignore
-*.fastq
-*.fastq.gz
-*.fq
-*.fq.gz
-
-database/
-result/
-
-.DS_Store
-__pycache__/
-```
-
----
-
-## 15. Notes
+## 14. Notes
 
 当前教程主要面向：
 
